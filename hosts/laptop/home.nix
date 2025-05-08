@@ -1,4 +1,4 @@
-{ pkgs, config, ... }: {
+I'm{ pkgs, config, ... }: {
 
   imports = [
     # Mostly user-specific configuration
@@ -92,7 +92,7 @@
     file.".face.icon" = { source = ./profile_picture.png; };
 
     # Don't touch this
-    stateVersion = "24.05";
+    stateVersion = "24.11";
   };
 
   programs.home-manager.enable = true;
